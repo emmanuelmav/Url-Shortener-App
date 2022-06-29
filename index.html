@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Shortly | URL shortening</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header-wrapper">
+    <img src="images/logo.svg" alt="logo" class="logo">
+    <nav class="navigation">
+      <ul class="nav-menu">
+        <li class="nav-link">Features</li>
+        <li class="nav-link">Pricing</li>
+        <li class="nav-link">Resources</li>
+      </ul>
+      <div class="login-menu">
+        <a href="#" class="login">Login</a>
+        <a href="#" class="sign-up">Sign Up</a>
+      </div>
+    </nav>
+    <!-- <h2>Menu</h2> -->
+    <div class="mobile-menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </header>
+  <main class="main-wrapper">
+
+    <section class="hero-section-flex">
+      <img class="hero-img" src="images/illustration-working.svg" alt="">
+
+      <div class="hero-heading-container">
+        <h1 class="hero-heading">More than just shorter links</h1>
+        <p class="hero-subheading">Build your brand’s recognition and get detailed insights
+          on how your links are performing.</p>
+        <button class="hero-btn">Get Started</button>
+      </div>
+
+    </section>
+
+    <section class="form-section">
+
+      <form action="/shortener" class="form">
+        <div class="input-container">
+          <input type="text" class="input" placeholder="Shorten a link here..." required>
+          <button class="form-btn">Shorten It!</button>
+        </div>
+
+      </form>
+
+    </section>
+    <!-- <img src="images/bg-shorten-mobile.svg" alt=""> -->
+    <section class="stats-section">
+      <!-- URL SECTION -->
+      <!-- <div class="url-container">
+        <p class="url"></p>
+        <div class="btn-wrapper">
+          <p class="short-url"></p>
+          <button class="copy-btn">Copy</button>
+        </div>
+      </div> -->
+
+
+
+      <div class="stats-heading-container">
+        <h2 class="stats-heading">Advanced Statistics</h2>
+        <p class="stats-subheading">Track how your links are performing across the web with our
+          advanced statistics dashboard.</p>
+      </div>
+
+      <div class="stats-card-wrapper">
+
+        <div class="stats-card">
+          <div class="card-img-wrapper">
+            <img src="/images/icon-brand-recognition.svg" alt="brand logo" class="card-img">
+          </div>
+          <h3 class="card-heading">Brand Recognition</h3>
+          <p class="card-subheading">Boost your brand recognition with each click. Generic links dont mean a thing.
+            Branded links help instil confidence in your content</p>
+        </div>
+        <span class="card-chain"></span>
+        <div class="stats-card">
+          <div class="card-img-wrapper">
+            <img src="/images/icon-detailed-records.svg" alt="brand logo" class="card-img">
+          </div>
+          <h3 class="card-heading">Detailed Records</h3>
+          <p class="card-subheading">Gain insights into who is clicking your links. Knowing when and where people engage
+            with your content helps inform better decisions.</p>
+        </div>
+        <span class="card-chain"></span>
+        <div class="stats-card">
+          <div class="card-img-wrapper">
+            <img src="/images/icon-fully-customizable.svg" alt="brand logo" class="card-img">
+          </div>
+          <h3 class="card-heading">Fully Customizable</h3>
+          <p class="card-subheading">Improve brand awareness and content discoverability through customizable
+            links, supercharging audience engagement.</p>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="boost-section">
+      <div class="boost-heading-container">
+        <h4 class="boost-heading">Boost your links today</h4>
+        <button class="boost-btn">Get Started</button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer-wrapper">
+    <img src="images/logo2.svg" alt="footer-logo" class="footer-logo">
+    <nav class="footer-nav">
+
+      <ul class="footer-menu">
+        <li class="menu-label">Features</li>
+        <li class="menu-links">Link Shortening</li>
+        <li class="menu-links">Branded Links</li>
+        <li class="menu-links">Analytics</li>
+      </ul>
+      <ul class="footer-menu">
+        <li class="menu-label">Resources</li>
+        <li class="menu-links">Blog</li>
+        <li class="menu-links">Developers</li>
+        <li class="menu-links">Support</li>
+      </ul>
+      <ul class="footer-menu">
+        <li class="menu-label">Company</li>
+        <li class="menu-links">About</li>
+        <li class="menu-links">Our Team</li>
+        <li class="menu-links">Careers</li>
+        <li class="menu-links">Contact</li>
+      </ul>
+    </nav>
+    <div class="icon-container">
+      <img src="images/icon-facebook.svg" alt="social" class="icons">
+      <img src="images/icon-twitter.svg" alt="social" class="icons">
+      <img src="images/icon-pinterest.svg" alt="social" class="icons">
+      <img src="images/icon-instagram.svg" alt="social" class="icons">
+    </div>
+
+  </footer>
+
+
+
+
+
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="app.js"></script>
+</body>
+
+</html>
